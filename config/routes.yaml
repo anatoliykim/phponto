@@ -1,0 +1,3 @@
+#index:
+#    path: /
+#    controller: AnatoliyKim\PHPOnto\Controller\DefaultController::index
