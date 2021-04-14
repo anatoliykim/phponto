@@ -1,7 +1,7 @@
 {
     "name": "anatoliykim/phponto",
     "description": "PHP ontology",
-    "type" : "symfony-bundle",
+    "version": "2.0.0",
     "license": "MIT",
     "authors": [
         {
@@ -9,27 +9,9 @@
             "email": "anatoliykim@users.noreply.github.com"
         }
     ],
-    "require": {
-        "php": "^7.1.3",
-        "symfony/flex": "^1.4",
-        "symfony/http-kernel": "^4.3",
-        "symfony/console": "^4.3",
-        "symfony/framework-bundle": "^4.3",
-        "symfony/dotenv": "^4.3",
-        "symfony/yaml": "^4.3"
-    },
-    "conflict": {
-        "symfony/symfony": "*"
-    },
     "autoload": {
         "psr-4": {
             "AnatoliyKim\\PHPOnto\\": "src/"
-        }
-    },
-    "scripts": {
-        "auto-scripts": {
-            "cache:clear": "symfony-cmd",
-            "assets:install %PUBLIC_DIR%": "symfony-cmd"
         }
     }
 }
